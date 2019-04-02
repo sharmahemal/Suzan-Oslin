@@ -1,0 +1,204 @@
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {
+    header .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+        text-align: left;
+    }
+
+    header .content h5 {
+        padding-left: 0;
+    }
+    .technicolor .content {
+        margin-top: 15rem;
+    }
+    .par101{
+        display: none;
+    }
+    .project::before {
+    top: -3rem;
+    width: 100%;
+    max-width: 26rem;
+}
+    .solution img {
+        max-width: 16rem;
+        margin-bottom: 40px;
+    }
+    .solution{
+        padding: 40px 0;
+        padding-bottom: 200px;
+    }
+    .globe{
+        display: none;
+    }
+    .project {
+    padding-top: 90px;
+    padding-bottom: 180px;
+}
+    .project img{
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    header::before {
+        background: url('../images/home-section1-divider-mobile@2x.png');
+        height: 7rem;
+        background-repeat: no-repeat;
+    }
+    .uexperience::before{
+         background: url('../images/home-astronaut-belt-mobile@3x.jpg');
+    }
+    .uexperience::before {
+        background: url('../images/home-astronaut-belt-mobile@3x.jpg');
+        max-width: 25rem;
+        height: 30rem;
+        bottom: 0;
+        right: -30px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .technicolor::before {
+        right: inherit;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -18rem;
+        width: 70%;
+    }
+     .technicolor::after{
+        background: url('../images/home-section3-divider-mobile@2x.png');
+        background-repeat: no-repeat;
+        bottom: -35px;
+    }
+    .solution::before{
+        background: url('../images/home-section5-divider-mobile@2x.png');
+        height: 10rem;
+    }
+    .project::before{
+        top: -12rem;
+    }
+    .project::before {
+        top: -15rem;
+    }
+    .project {
+    padding-top: 320px;
+    padding-bottom: 180px;
+}
+    .project.pro101 {
+    padding-top: 350px;
+}
+    .pro101::after {
+    background: url('../images/home-section6-divider-mobile@2x.png');
+        background-repeat: repeat;
+    background-repeat: no-repeat;
+    height: 170px;
+}
+    .strategy .content .nav-bar ul li{
+        margin-bottom: 10px;
+    }
+    .strategy .content .nav-bar ul li.active{
+        margin-left: 10px !important;
+    }
+    footer .con202 {
+    text-align: left;
+    margin: 0;
+    color: #fff;
+    max-width: 100%;
+    float: right;
+    padding: 0 20px;
+        text-align: center;
+}
+    footer .con202 .social{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 620.98px) {
+    header{
+        background: url('../images/home-hero-observatory&milkyWay-mobile@3x.jpg');
+        background-size: cover;
+        height: 100vh;
+        background-position: center center !important;
+    }
+    .uexperience{
+        padding-bottom: 540px;
+    }
+    header .logo a{
+        font-size: 27px;
+    }
+    header .content {
+    margin: 18vh 0;
+    max-width: 22rem !important;
+}
+    header .content h2{
+        font-size: 25px;
+        line-height: normal;
+    }
+    header .content h5{
+        font-size: 16px;
+    }
+    header::before {
+        height: 4rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        bottom: -1rem;
+    }
+    .technicolor{
+        background: url('../images/home-section1-body-mobile@2x.jpg');
+        background-position: bottom center;
+    }
+    .technicolor::after {
+        bottom: -1px;
+        background-size: 100% 100%;
+        height: 5rem;
+    }
+    .project::after{
+        background: url('../images/home-section4-divider-mobile@2x.png');
+        background-size: 100% 100%;
+        height: 5rem;
+    }
+    .solution{
+        overflow: hidden;
+    }
+    .solution .image img {
+        height: auto;
+        max-width: 20rem;
+        margin-top: 0;
+    }
+    .solution::after{
+        background: url('../images/home-section4-body-mobile@2x.jpg');
+        background-position: right top;
+    }
+    .solution::before {
+        height: 6rem;
+        background-size: 100% 100%;
+    }
+    .pro101::after {
+        background: url('../images/home-section6-divider-mobile@2x.png');
+        background-size: 100% 100%;
+    }
+    .con101 .image img {
+        margin: 0 auto;
+    }
+    .uexperience::after{
+        background: url('../images/home-section2-divider-mobile@2x.png');
+        background-size: 100% 100%;
+        height: 4rem;
+    }
+}
+@media (max-width: 420.98px) {
+    header .logo a{
+        font-size: 20px;
+    }
+    header .content h2{
+        font-size: 19px;
+    }
+    footer .content .social li{
+        margin: 0 5px;
+    }
+    footer .content .social li a {
+        width: 40px;
+        height: 40px;
+    }
+}
