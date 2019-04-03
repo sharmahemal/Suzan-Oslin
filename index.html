@@ -17,7 +17,7 @@
     <!-- owl carousel -->
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.default.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/cssanimation.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -103,7 +103,7 @@
 
     <!-- project -->
     <section class="project">
-        <img src="images/float-img_kepler@2x.png" alt="" class="wow slideInRight">
+        <img src="images/float-img_kepler@2x.png" alt="" class="wow slideInRight" data-scrolly-down="moveFromRight  , duration:1s">
         <div class="container">
             <div class="row">
                 <div class="col-md-6"></div>
@@ -156,7 +156,7 @@
                     <!-- end content -->
                 </div>
             </div>
-            <div class="globe wow animated slideInLeft">
+            <div class="globe" data-scrolly-down="moveFromTop  , duration:1.5s">
                 <img src="images/float-img_mars-phobos@2x.png" alt="">
             </div>
         </div>
@@ -289,11 +289,14 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- owl carousel -->
     <script src="js/owl.carousel.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="js/scrolly.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
     <script>
-        new WOW().init();
+        window.onload = function() {
+            scrolly();
+        };
+
     </script>
 </body>
 

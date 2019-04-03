@@ -29,6 +29,11 @@ ul {
 
 button {
     cursor: pointer;
+    outline: none;
+}
+button:focus{
+    border: none;
+    outline: none;
 }
 
 .fixed-top {
@@ -359,6 +364,7 @@ header .content h5 {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: right bottom;
+    z-index: 9;
 }
 .solution:after{
     content: '';
@@ -398,7 +404,7 @@ header .content h5 {
 }
 .globe {
     position: absolute;
-    bottom: 65px;
+    bottom: 50px;
     width: 13rem;
     height: 11rem;
     left: 19%;
@@ -478,7 +484,6 @@ header .content h5 {
     margin: 0 2%;
     padding: 5px 18px;
     border-radius: 9px;
-    border: 2px solid #909CEA;
 }
 .strategy .content .nav-bar ul li.active {
     background: #F5F5F5;
